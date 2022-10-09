@@ -1,0 +1,19 @@
+{
+    "name": "ben/deployer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ben\\Deployer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benedikt Schöffmann",
+            "email": "benedikt.schoeffmann@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "deployer/deployer": "^7.0",
+        "squizlabs/php_codesniffer": "*"
+    }
+}
